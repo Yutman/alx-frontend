@@ -611,13 +611,13 @@ ul.row {
 
 /* all elements with class card-image inside elements with class card-work with active hover */
 .card-work:hover .card-image {
-	/* set the transform, how the elemetn is transformed */
+	/* set the transform, how the element is transformed */
 	transform: scale(1.2);
 	/* set the transition between two states of the element */
 	transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-outer {
-	/* set the transform, how the elemetn is transformed */
+	/* set the transform, how the element is transformed */
 	transform: scale(0.95);
 }
